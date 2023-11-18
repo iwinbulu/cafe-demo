@@ -1,0 +1,81 @@
+$primary-color: #392a1d;
+$secondary-color: #d7bba1;
+$tertiary-color: #919699;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  background-image: url(assets/images/coffee\ shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  h1,
+  h2 {
+    font-family: "oswald";
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 3fr 1.8fr;
+    grid-template-areas: "hero empty";
+    width: max-width;
+    height: 680px;
+    align-items: center;
+
+    .container {
+      background-color: rgba($color: #392a1d, $alpha: 0.8);
+      border-radius: 30px;
+      padding: 40px 60px;
+      margin: 60px 60px;
+      color: $tertiary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      p {
+        color: $tertiary-color;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        font-family: "Source Sans 3";
+        font-size: 1.2rem;
+      }
+    }
+    button {
+      width: 160px;
+      padding: 10px 5px;
+      border-radius: 25px;
+      border: none;
+      box-shadow: inset;
+      background-color: $secondary-color;
+      color: $primary-color;
+      font-family: "oswald";
+    }
+  }
+  #about {
+    width: max-width;
+    height: 480px;
+    background-color: rgba($color: #919699, $alpha: 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 80px;
+    p {
+      color: $primary-color;
+      padding: 25px 50px;
+      margin: 50px 50px;
+      font-family: "Source Sans 3";
+      font-size: 1.2rem;
+    }
+  }
+}

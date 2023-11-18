@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  background-image: url(assets/images/coffee\ shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1,
+section h2 {
+  font-family: "oswald";
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #d7bba1;
+}
+section .hero {
+  display: grid;
+  grid-template-columns: 3fr 1.8fr;
+  grid-template-areas: "hero empty";
+  width: max-width;
+  height: 680px;
+  align-items: center;
+}
+section .hero .container {
+  background-color: rgba(57, 42, 29, 0.8);
+  border-radius: 30px;
+  padding: 40px 60px;
+  margin: 60px 60px;
+  color: #919699;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .hero .container p {
+  color: #919699;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-family: "Source Sans 3";
+  font-size: 1.2rem;
+}
+section .hero button {
+  width: 160px;
+  padding: 10px 5px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: inset;
+  background-color: #d7bba1;
+  color: #392a1d;
+  font-family: "oswald";
+}
+section #about {
+  width: max-width;
+  height: 480px;
+  background-color: rgba(145, 150, 153, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 80px;
+}
+section #about p {
+  color: #392a1d;
+  padding: 25px 50px;
+  margin: 50px 50px;
+  font-family: "Source Sans 3";
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
